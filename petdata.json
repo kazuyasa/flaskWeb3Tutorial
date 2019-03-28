@@ -1,0 +1,57 @@
+{
+    "abi":[
+    	{
+    		"constant": false,
+    		"inputs": [
+    			{
+    				"name": "petId",
+    				"type": "uint256"
+    			}
+    		],
+    		"name": "adopt",
+    		"outputs": [
+    			{
+    				"name": "",
+    				"type": "string"
+    			}
+    		],
+    		"payable": false,
+    		"stateMutability": "nonpayable",
+    		"type": "function"
+    	},
+    	{
+    		"constant": true,
+    		"inputs": [
+    			{
+    				"name": "",
+    				"type": "uint256"
+    			}
+    		],
+    		"name": "adopters",
+    		"outputs": [
+    			{
+    				"name": "",
+    				"type": "address"
+    			}
+    		],
+    		"payable": false,
+    		"stateMutability": "view",
+    		"type": "function"
+    	},
+    	{
+    		"constant": true,
+    		"inputs": [],
+    		"name": "getAdopters",
+    		"outputs": [
+    			{
+    				"name": "",
+    				"type": "address[16]"
+    			}
+    		],
+    		"payable": false,
+    		"stateMutability": "view",
+    		"type": "function"
+    	}
+    ],
+      "contract_address": "0x9f7b2e3866930bd1626d5d215118602e3e22309c"
+}
